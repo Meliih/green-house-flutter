@@ -12,7 +12,6 @@ class _EnerjiState extends State<Enerji> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      resizeToAvoidBottomInset: true,
       appBar: AppBar(
         title: Center(child: Text('Enerji Üretimi')),
         backgroundColor: Color.fromARGB(255, 53, 106, 20),

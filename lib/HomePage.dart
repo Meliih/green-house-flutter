@@ -24,8 +24,8 @@ class _HomePageState extends State<HomePage> {
         return Future.value(false);
       },
       child: Scaffold(
-        endDrawer: ,
         appBar: AppBar(
+          automaticallyImplyLeading: false,
           title: Center(child: Text('Green House')),
           backgroundColor: Color.fromARGB(255, 53, 106, 20),
         ),
