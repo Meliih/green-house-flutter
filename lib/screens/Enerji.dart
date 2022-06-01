@@ -28,7 +28,8 @@ class _EnerjiState extends State<Enerji> {
                     decoration: BoxDecoration(
                         //color: Colors.green,
                         borderRadius: BorderRadius.all(Radius.circular(10))),
-                    child: AutoSizeText("Şu anda sistemde kaç panel çalışıyor:",
+                    child: AutoSizeText(
+                        "Şu anda sistemde kaç panel çalışıyor: 30 ",
                         textDirection: TextDirection.ltr,
                         //textAlign: TextAlign.justify,
                         maxLines: 3,
@@ -40,20 +41,6 @@ class _EnerjiState extends State<Enerji> {
                           fontWeight: FontWeight.w700,
                         )),
                   ),
-                  SizedBox(
-                    width: 10,
-                  ),
-                  Container(
-                    child: Text(
-                      "60",
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 20,
-                        fontFamily: 'Roboto',
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
-                  )
                 ],
               ),
               SizedBox(
@@ -83,7 +70,7 @@ class _EnerjiState extends State<Enerji> {
                   ),
                   Container(
                     child: Text(
-                      "22250 watt",
+                      "13500 watt/hours",
                       style: TextStyle(
                         color: Colors.black,
                         fontSize: 20,

@@ -13,7 +13,6 @@ class _VerimlilikState extends State<Verimlilik> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: false,
         title: Center(child: Text('Verimlilik')),
         backgroundColor: Color.fromARGB(255, 53, 106, 20),
       ),

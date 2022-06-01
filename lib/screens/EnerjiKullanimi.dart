@@ -44,7 +44,7 @@ class _EnerjiKullanimiState extends State<EnerjiKullanimi> {
                     width: 10,
                   ),
                   Container(
-                    child: Text(
+                    child: AutoSizeText(
                       "17000 watt",
                       style: TextStyle(
                         color: Colors.black,
